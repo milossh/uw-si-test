@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^auth/ /api/login.php
+RewriteRule ^users/ /api/students.php

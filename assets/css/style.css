@@ -1,0 +1,133 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content.container {
+    margin: 2% auto !important;
+}
+
+.main-content {
+    width: 60%;
+    max-width: 800px;
+    height: 100%;
+    margin: 5% auto;
+}
+
+.row {
+    margin: 5% auto;
+}
+
+.intro-text {
+    margin: 3% auto;
+}
+
+.lif input {
+    border-radius: 1rem;
+    padding-left: 30px;
+}
+
+.username input {
+    background: url("/assets/img/user.svg") no-repeat left center;
+}
+
+.password input {
+    background: url("/assets/img/password.svg") no-repeat left center;
+}
+
+.login-button button {
+    background-color: #E98C3B;
+    color: #FFFFFF;
+    text-align:left;
+    width: 100%;
+}
+
+.login-button i {
+    float: right;
+    line-height: 24px;
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+}
+
+.header-separator hr {
+    border: none;
+    height: 17px;
+    background-color: #E98C3B;
+    /* IE Fix */
+    color: #E98C3B;
+}
+
+.pagination {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pagination li {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.single-student td, .single-student tr {
+    padding: 5px !important;
+    border: none;
+}
+
+.table-striped tbody tr tbody tr {
+    background-color: transparent !important;
+}
+
+.td-icon i {
+    color: green;
+    font-size: 2rem;
+}
+
+.td-left {
+    float: left;
+}
+
+.td-right {
+    float: right;
+}
+
+.td-fullname {
+    color: grey;
+}
+
+.logout-wrap {
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+    font-size: 30px;
+    background-color: #dfdfdf;
+}
+
+.logout-wrap:hover {
+    background-color: #e6e6e6;
+}
+
+/*----------------------- Preloader -----------------------*/
+
+body.preload {
+    overflow: hidden;
+}
+
+.preload-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.preload-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
